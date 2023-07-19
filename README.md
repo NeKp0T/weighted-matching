@@ -1,12 +1,10 @@
 # Max Weighted Matching
 
-Solves Max Weighted Matching problem, that is finds a maximum matching of maximum weight in a weighted graph.
+This project finds a maximum size matching of maximum weight in a weighted graph. A matching is a set of edges without common vertices, and the weight of a matching is the sum of weights of the edges. The algorithm finds a largest possible matching and optimizes the weight of that matching.
 
-The code is written in 2020 in several grueling days to get a pass for Advanced Algorithms exam.
-It follows a competitive programming codestyle, that is to say no codestyle at all. 
-I'm not proud of it, and today I would have written it better, 
-but at the time it did the job. In particular, I used one cpp file for everything in order to test using 
-unweighted matching problem in the testing system. 
+The code was written in 2020 to solve this problem as a replacement for an Advanced Algorithms exam. It uses a compact competitive programming style, with the entire implementation in a single C++ file. This allowed quick validation with the grading system.
+
+While not ideal for reuse, the code achieved its purpose at the time. Today I would implement it in a more modular way with better documentation. But I'm still proud this program powered me through a difficult exam when getting started in algorithms.
 
 ## Input-output format
 
